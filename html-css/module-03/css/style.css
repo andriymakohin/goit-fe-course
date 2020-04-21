@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+} 
+
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* HEADER */
+
+.page-header {
+    margin-top: 65px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* SITE NAV */
+
+.page-nav {
+    padding: 83px 0;
+}
+
+.site-navigation {
+    font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 105px;
+}
+
+.site-navigation a {
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+/* BOX */
+
+.box-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.box-list-items {
+    display: inline-block;
+    margin-right: 60px;
+    width: 420px;
+    padding-bottom: 110px;
+}
+
+.box-list-items:nth-child(2n) {
+    margin-right: 0;
+}
+
+.box-list-titel {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: #b4ad9e;
+}
+
+.box-list-name {
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 33px;
+    margin-top: 16px;
+}
+
+.box-list-about {
+    font-size: 14px;
+}
+
+.box-end {
+    padding: 0;
+}
+
+/* FOOTER */
+
+.page-footer {
+    display: flex;
+    padding-bottom: 72px;
+    padding-top: 37px;
+}
+
+.load-buttom {
+    padding: 22px 37px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    background-color: white;
+    border-color: #626262;
+}
