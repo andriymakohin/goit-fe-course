@@ -16,21 +16,16 @@ body {
     line-height: 24px;
 }
 
-/* HEADER */
-
-.page-header {
-    margin-top: 65px;
-}
-
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 /* SITE NAV */
 
 .page-nav {
-    padding: 83px 0;
+    padding-top: 77px;
+    padding-bottom: 90px;
 }
 
 .site-navigation {
@@ -89,7 +84,6 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    box-shadow: #b4ad9e;
 }
 
 .box-list-name {
@@ -97,8 +91,8 @@ body {
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    margin-bottom: 33px;
-    margin-top: 16px;
+    /* margin-bottom: 33px;
+    margin-top: 16px; */
 }
 
 .box-list-about {
@@ -114,7 +108,7 @@ body {
 .page-footer {
     display: flex;
     padding-bottom: 72px;
-    padding-top: 37px;
+    padding-top: 57px;
 }
 
 .load-buttom {
