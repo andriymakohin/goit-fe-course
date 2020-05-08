@@ -8,21 +8,20 @@ body {
   color: #555252;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* HEADER AND MENU */
 header {
-  width: 1170px;
+  width: 1110px;
   margin: auto;
   height: auto;
   overflow: hidden;
   text-align: right;
   margin-bottom: 106px;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .site-logo {
@@ -31,7 +30,6 @@ header {
   font-size: 30px;
   line-height: 32px;
   margin-top: 36px;
-  margin-left: 30px;
   float: left;
 }
 
@@ -45,16 +43,22 @@ header {
   color: #1abc9c;
 }
 
-.top {
-  float: right;
-}
+
 
 .site-nav {
   line-height: 11px;
   list-style: none;
-  display: inline-block;
-  text-align: right;
-  margin-top: 43px;
+  font-size: 14px;
+  float: right;
+  margin-top: 30px;
+}
+
+.site-nav li {
+  float: left;
+  margin-bottom: 8px;
+}
+
+.site-nav li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -65,7 +69,6 @@ header {
   color: #0f0101;
   text-transform: uppercase;
   list-style: none;
-  font-size: 14px;
   line-height: 32px;
   display: block;
   float: left;
@@ -78,9 +81,10 @@ header {
 }
 
 
+
 /* GALLERY */
 .gallery {
-  width: 1170px;
+  width: 1110px;
   margin: auto;
   font-size: 0;
 }
@@ -102,14 +106,14 @@ header {
   background-color: #1abc9c;
   margin: auto;
   margin-top: 32px;
-  margin-bottom: 92px;
+  margin-bottom: 62px;
 }
 
 .featured-item {
-  display: inline-block;
   width: 255px;
   height: 322px;
-  margin: 15px 15px 15px 15px;
+  margin: 30px 0 0;
+  margin-right: 30px;
   text-align: left;
   list-style: none;
   float: left;
@@ -120,15 +124,12 @@ header {
   margin-right: 0;
 }
 
-.featured-item:nth-child(4n + 1) {
-  margin-left: 30px;
-}
 
 .featured-item:last-child {
   margin-bottom: 105px;
 }
 
-.featured {
+ .featured {
   text-align: center;
 }
 
@@ -188,7 +189,7 @@ header {
 
 /* BLOG */
 .blog {
-width: 1170px;
+width: 1110px;
 margin: auto;
 }
 
@@ -217,9 +218,17 @@ margin: auto;
 }
 
 .blog-list-item {
-  display: inline-block;
+  float: left;
+  list-style: none;
   width: 350px;
-  margin: 15px 15px 15px 15px;
+}
+
+.blog-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.blog-list-item:last-child {
+  margin-bottom: 50px;
 }
 
 .blog-name {
