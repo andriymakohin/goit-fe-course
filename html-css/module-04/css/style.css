@@ -135,7 +135,7 @@ header {
 
 .featured-item a,
 .price {
-  display: inline-block;
+  float: left;
   width: 201px;
   height: 40px;
   text-decoration: none;
