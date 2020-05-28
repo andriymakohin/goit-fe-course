@@ -33,7 +33,7 @@ header {
 }
 
 .page-header {
-  width: 1110px;
+  width: 1140px;
 }
 
 .site-logo {
@@ -56,8 +56,6 @@ header {
   font-weight: 900;
   color: #1abc9c;
 }
-
-
 
 
 .site-nav {
@@ -104,6 +102,7 @@ header {
   background: #000000;
   height: 600px;
   margin: auto;
+
 }
 
 .slider img {
@@ -425,7 +424,7 @@ header {
 
 /* SECTION FOOTER */
 
-footer{
+footer div {
   background-color: #323232;
   height: 88px;
   line-height: 88px;
@@ -434,7 +433,7 @@ footer{
   color: #fff;
 }
 
-footer a{
+footer div a {
   color: #1abc9c;
   text-decoration: none;
 }
