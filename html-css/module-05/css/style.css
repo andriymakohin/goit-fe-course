@@ -9,6 +9,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  display: block;
+}
+
 
 .clearfix::after {
   content: "";
@@ -102,9 +106,13 @@ header {
   margin: auto;
 }
 
-.slider:hover img{
+.slider img {
   opacity: 0.52;
 }
+
+/* .slider:hover img{
+  opacity: 0.52;
+} */
 
 .slider .slider-btn:hover{
   background-color: rgb(26, 188, 156, 1);
@@ -363,8 +371,14 @@ header {
   padding-right: 10px;
 }
 
-.product-list-item:hover .overlay{
+.product-list-item:hover .overlay, img {
   background-color:rgba(0,0,0,0.549);
+  z-index: 2;
+}
+
+.product-list-item:hover img {
+  opacity: 0.40;
+  z-index: 1;
 }
 
 .product-list-item:hover .like{
