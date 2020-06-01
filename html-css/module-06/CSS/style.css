@@ -372,10 +372,10 @@ img {
   cursor: pointer;
 }
 
-.subscribe-button:hover,
+/* .subscribe-button:hover,
 :focus {
   background-color: #f38181;
-}
+} */
 
 .your-email {
   border-style: solid;
@@ -390,6 +390,23 @@ img {
   width: 230px;
   height: 40px;
   padding: 5px;
+}
+
+::placeholder {
+  color: #cccccc;
+  opacity: 0.7;
+}
+
+input:focus {
+  color: #f38181;
+}
+
+input:focus:valid {
+  color: green;
+}
+
+input:focus:invalid {
+  color: red;
 }
 
 .form-subscribe {
