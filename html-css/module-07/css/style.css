@@ -252,9 +252,6 @@ img {
   padding: 0;
 }
 
-.user-input input:invalid {
-  outline: 2px solid red;
-}
 
 .user-input input {
   margin: 0;
@@ -264,10 +261,11 @@ img {
   text-transform: uppercase;
   width: 458px;
   height: 54px;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 1px solid rgb(204, 204, 204);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  transition: all 0.2s linear;
 }
 
 .user-input input:last-child {
@@ -280,15 +278,15 @@ img {
   padding: 0;
 }
 
-.your-message:invalid {
+/* .your-message:invalid {
   outline: 2px solid red;
-}
+} */
 
 .your-message {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 1px solid rgb(204, 204, 204);
   width: 458px;
   height: 222px;
@@ -298,15 +296,25 @@ img {
   outline: none;
   padding-left: 22px;
   padding-top: 22px;
+  transition: all 0.2s linear;
 }
 
 .form-subscribe input:optional {
   outline: none;
 }
 
-.form-subscribe input,
-.form-subscribe textarea:valid {
+.your-name:focus:valid,
+.your-email:focus:valid,
+.your-message:focus:valid {
   outline: 2px solid green;
+  background-color: #ddffdd;
+}
+
+.your-name:focus:invalid,
+.your-email:focus:invalid,
+.your-message:focus:invalid {
+  outline: 2px solid red;
+  background-color: #ffdddd;
 }
 
 .subscribe-button {
@@ -322,5 +330,11 @@ img {
   margin: 30px auto 0;
   border: none;
   display: block;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.subscribe-button:hover {
+  background-color: rgba(254, 209, 54, 0.8);
   cursor: pointer;
 }
