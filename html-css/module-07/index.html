@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../module-07/CSS/style.css" />
+    <title>Модуль 7</title>
+  </head>
+  <body>
+      
+    <header>
+            <!-- ===HEADER=== -->
+      <div class="conteiner page-header">
+        <nav>
+          <h1 class="site-logo"><a>Golden</a></h1>
+          <ul class="site-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===SERVICE=== -->
+      <div class="conteiner">
+        <section class="service">
+          <div class="service-title">
+            <h2 class="service-title-name">Services</h2>
+            <p class="service-subtitel">
+              Proin iaculis purus consequat sem cure.
+            </p>
+          </div>
+          <ul class="service-list">
+            <li class="service-list-item e_comerce">
+              <h3 class="list-item-name">E-Commerce</h3>
+              <p class="list-item-subtitel">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="service-list-item responsive_web">
+              <h3 class="list-item-name">Responsive Web</h3>
+              <p class="list-item-subtitel">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="service-list-item web_security">
+              <h3 class="list-item-name">Web Security</h3>
+              <p class="list-item-subtitel">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- ===CONTACT=== -->
+      <section class="contact">
+        <div class="conteiner">
+          <div class="contact-title">
+            <h2 class="contact-titel-name">Contact us</h2>
+            <p class="contact-subtitel">
+              Proin iaculis purus consequat sem cure.
+            </p>
+          </div>
+
+          <!-- ===FORM=== -->
+          <form class="form-subscribe" action="#" onclick="false" method="POST">
+            <div class="user-input">
+              <input
+                class="your-name"
+                type="text"
+                name="user-name"
+                minlength="2"
+                maxlength="20"
+                required
+                pattern="[A-Za-z]{3,}"
+                placeholder="your Name *"
+              />
+              <input
+                class="your-email"
+                type="email"
+                name="user-e-mail"
+                required
+                placeholder="your e-mail *"
+              />
+              <input
+                class="subject"
+                type="text"
+                name="sudject"
+                placeholder="subject"
+              />
+            </div>
+            <div class="user-message">
+              <textarea
+                class="your-message"
+                cols="30"
+                rows="10"
+                minlength="5"
+                name="user-massage"
+                required
+                placeholder="Your message *"
+              ></textarea>
+            </div>
+            <button class="subscribe-button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
