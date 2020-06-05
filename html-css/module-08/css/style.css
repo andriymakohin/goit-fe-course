@@ -308,6 +308,17 @@ img {
   .partner-list-item:nth-child(-n + 2) {
     margin-bottom: 0;
   }
+
+  .partner-list-item:nth-child(odd) {
+    margin-right: 0;
+  }
+  .partner-list-item {
+    margin-left: 10px;
+  }
+
+  .partner-list-item:first-child {
+    margin-left: 0;
+  }
 }
 
 .partner-img-wraper {
