@@ -1,15 +1,29 @@
+@media (max-width: 768px) {
+  .header-titel-name {
+    min-width: 320px;
+  }
+
+  .header-titel-sub {
+    min-width: 320px;
+  }
+}
+
 @media (min-width: 768px) {
   .page-nav {
     padding: 0 50px 0;
   }
-  /* .page-header {
+  .page-header {
     height: 700px;
-  } */
+  }
 
   .header-titel-name {
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 10px;
+  }
+
+  .br {
+    display: none;
   }
 
   .header-titel-sub {
