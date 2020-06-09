@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .page-nav {
+    padding: 0 50px 0;
+  }
+  /* .page-header {
+    height: 700px;
+  } */
+
+  .header-titel-name {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .header-titel-sub {
+    width: 404px;
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 940px) {
+  .page-nav {
+    padding: 0;
+  }
+}

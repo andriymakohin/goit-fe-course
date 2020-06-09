@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(102, 102, 102);
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  min-width: 320px;
+}
+
+img {
+  /* display: block; */
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===HEADER=== */
+.page-header {
+  background: rgb(26, 25, 21) url(../img/Vector.png) no-repeat;
+  margin: 0 auto;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.page-min {
+  padding-top: 30px;
+}
+
+.site-logo-one {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav {
+  /* padding-top: 30px; */
+  margin-bottom: 110px;
+}
+
+.list-item-name a {
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  border-radius: 18px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.2s linear;
+}
+
+.list-item-name a:hover {
+  border-color: #ffffff;
+}
+
+.site-logo-two {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.header-titel {
+  margin-top: 28px;
+}
+
+.header-titel-name {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.header-titel-sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+/* ===BUTTON=== */
+
+.btn {
+  width: 280px;
+  height: 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-header {
+  background-color: rgb(255, 78, 80);
+  color: rgb(255, 255, 255);
+  transition: 0.2s linear;
+}
+
+.btn-footer {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
+  transition: 0.2s linear;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.btn-header:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 78, 80);
+}
+
+.btn-footer:hover {
+  background-color: rgb(255, 78, 80);
+  color: rgb(255, 255, 255);
+}
+
+/* ===PARTNERS=== */
+
+.title-partner {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+  margin: 0;
+  padding: 60px 0 40px;
+  text-align: center;
+}
+
+.partner-img-wraper {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  max-width: 120px;
+}
+
+.partner-img-wraper::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0;
+  bottom: 0;
+}
+
+.partner-1::after {
+  background-image: url(../img/icons/cardicons/icon-tv.png);
+  background-color: rgb(255, 78, 80);
+}
+
+.partner-2::after {
+  background-image: url(../img/icons/cardicons/icon-chemistry.png);
+  background-color: rgb(255, 165, 7);
+}
+
+.partner-3::after {
+  background-image: url(../img/icons/cardicons/icon-teacup.png);
+  background-color: rgb(28, 215, 173);
+}
+
+.partner-4::after {
+  background-image: url(../img/icons/cardicons/icon-message.png);
+  background-color: rgb(78, 115, 219);
+}
+
+.partner-card-name {
+  height: 135px;
+}
+
+.partner-name {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin: 0;
+  padding: 16px 0px 16px;
+}
+
+.partner-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  margin: 0;
+  padding: 14px 0px 14px;
+}
+
+.partner-card {
+  padding-bottom: 40px;
+}
