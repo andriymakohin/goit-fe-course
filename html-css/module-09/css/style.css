@@ -132,6 +132,7 @@ img {
   transition: 0.2s linear;
   margin-top: 30px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .btn-header:hover {
@@ -145,6 +146,10 @@ img {
 }
 
 /* ===PARTNERS=== */
+
+.partner {
+  text-align: center;
+}
 
 .title-partner {
   font-weight: 700;
