@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(102, 102, 102);
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  min-width: 900px;
+}
+
+images {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .waper-background {
+    background-image: -moz-linear-gradient(
+        90deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../images/background@2x.png);
+    background-image: -webkit-linear-gradient(
+        90deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../images/background@2x.png);
+    background-image: -ms-linear-gradient(
+        90deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url(../images/background@2x.png);
+  }
+}
+
+$Montserrat-font: 'Montserrat' sans-serif;
+$Kaushan-font: 'Kaushan Script', cursive;
+$Roboto-font: 'Roboto', sans-serif;
+$head-text-color: rgb(255, 255, 255);
+$hover-color: rgb(252, 227, 138);
+$email-color: rgb(231, 231, 231);
+$tex-color: #333333;
+$main-after: rgb(243, 129, 129);
+$footer-border-color: #999999;
