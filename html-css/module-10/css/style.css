@@ -176,16 +176,17 @@ img {
   fill: rgb(252, 227, 138);
 }
 
-.header__slogan {
+.leyout__sub {
   margin-top: 180px;
   font-size: 72px;
+  line-height: 80px;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   color: rgb(255, 255, 255);
   padding-bottom: 50px;
 }
 
-.header__titel {
+.leyout__titel {
   font-size: 150px;
   line-height: 168px;
   font-family: "Montserrat";
@@ -233,7 +234,7 @@ img {
   margin-bottom: 52px;
 }
 
-.services__title--name {
+.services__name {
   display: block;
   font-size: 24px;
   line-height: 29px;
@@ -286,14 +287,15 @@ img {
   grid-column-gap: 30px;
 }
 
-.content__item-icon {
+.content__icon {
+  fill: rgb(149, 225, 211);
   -ms-grid-row: 1;
   grid-row: 1;
   -ms-grid-column: 1;
   grid-column: 1;
 }
 
-.content__item--titel {
+.content__titel {
   font-size: 14px;
   line-height: 17px;
   font-family: "Montserrat";
@@ -306,7 +308,7 @@ img {
   grid-column: 2;
 }
 
-.content__item--slogan {
+.content__sub {
   margin: 0;
   font-family: "Roboto", sans-serif;
   -ms-grid-row: 2;
@@ -333,7 +335,7 @@ img {
   margin-bottom: 52px;
 }
 
-.team__title--name {
+.team__name {
   display: block;
   font-size: 24px;
   line-height: 29px;
@@ -364,7 +366,7 @@ img {
   justify-content: center;
 }
 
-.team__section--name {
+.team__sectionName {
   -ms-flex-preferred-size: 980px;
   flex-basis: 980px;
   text-align: center;
@@ -391,7 +393,7 @@ img {
   box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
 }
 
-.overlay {
+.main__overlay {
   position: absolute;
   max-width: 380px;
   max-height: 470px;
@@ -412,7 +414,7 @@ img {
   justify-content: center;
 }
 
-.main__list:hover .overlay {
+.main__list:hover .main__overlay {
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -432,7 +434,7 @@ img {
   );
 }
 
-.overlay:hover .social {
+.main__overlay:hover .social {
   opacity: 1;
 }
 
@@ -452,7 +454,7 @@ img {
   flex: 0 0 382px;
 } */
 
-.main__list--name {
+.main__listName {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -463,7 +465,7 @@ img {
   margin-top: 40px;
 }
 
-.main__list--sub {
+.main__listSub {
   font-family: "Roboto", sans-serif;
   font-style: italic;
 }
@@ -500,7 +502,7 @@ img {
   background-position: center;
 }
 
-.social__listItem--icon {
+.social__icon {
   fill: rgb(243, 129, 129);
 }
 
@@ -509,7 +511,7 @@ img {
   background-color: rgb(243, 129, 129);
 }
 
-.social__listItem:hover .social__listItem--icon {
+.social__listItem:hover .social__icon {
   fill: rgb(255, 255, 255);
 }
 
@@ -535,7 +537,7 @@ img {
   color: #333333;
 }
 
-.footer__copyright--name {
+.footer__copyrightName {
   color: #f38181;
   text-decoration: none;
 }
