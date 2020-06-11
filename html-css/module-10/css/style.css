@@ -133,7 +133,7 @@ img {
   padding: 0;
 }
 
-.menu__item--active {
+.menu__list {
   display: block;
   text-decoration: none;
   font-family: "Montserrat" sans-serif;
@@ -144,7 +144,7 @@ img {
   line-height: 17px;
 }
 
-.menu__item--active:after {
+.menu__list:after {
   display: block;
   content: "";
   width: 0px;
@@ -158,21 +158,21 @@ img {
   transform: translateY(10px);
 }
 
-.menu__item--active-icon {
+.menu__icon {
   fill: rgb(255, 255, 255);
 }
 
-.menu__item--active:hover:after,
-.menu__item--active:focus:after {
+.menu__list:hover:after,
+.menu__list:focus:after {
   width: 100%;
 }
 
-.menu__item--active:hover,
-.menu__item--active:focus {
+.menu__list:hover,
+.menu__list:focus {
   cursor: pointer;
   color: rgb(252, 227, 138);
 }
-.menu__item--active-icon:hover {
+.menu__icon:hover {
   fill: rgb(252, 227, 138);
 }
 
