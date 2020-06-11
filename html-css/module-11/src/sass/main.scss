@@ -4,7 +4,8 @@
 
 @import 'normalize.scss';
 @import 'base.scss';
-@import 'header.scss';
-@import 'services.scss';
-@import 'team.scss';
-@import 'footer.scss';
+@import './content/vars.scss';
+@import './content/header.scss';
+@import './content/services.scss';
+@import './content/team.scss';
+@import './content/footer.scss';
