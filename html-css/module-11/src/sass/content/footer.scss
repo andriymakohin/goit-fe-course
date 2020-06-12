@@ -38,7 +38,7 @@
     text-transform: uppercase;
     cursor: pointer;
     &:hover,
-    :focus {
+    &:focus {
       background-color: $main-after;
     }
   }
@@ -54,9 +54,9 @@
   height: 40px;
   padding: 5px;
   &::-webkit-input-placeholder,
-  ::-moz-placeholder,
-  ::-ms-input-placeholder,
-  ::placeholder {
+  &::-moz-placeholder,
+  &::-ms-input-placeholder,
+  &::placeholder {
     color: $head-text-color;
     font-size: 15px;
     font-family: $Roboto-font;
